@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Elastic Load Balancer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #232f3e;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background-color: #fff;
+        }
+        h1, h2 {
+            color: #232f3e;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+        footer {
+            background-color: #232f3e;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AWS Elastic Load Balancer (ELB)</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introducción</h2>
+            <p>AWS Elastic Load Balancer (ELB) es un servicio administrado que distribuye automáticamente el tráfico entrante de aplicaciones entre varios destinos, como instancias EC2, contenedores y direcciones IP. ELB ayuda a mejorar la disponibilidad y tolerancia a fallos de las aplicaciones.</p>
+            <img src="../taller_10/portada.png" alt="AWS" />
+        </section>
+        <section>
+            <h2>Beneficios Clave</h2>
+            <ul>
+                <li>Escalabilidad automática para adaptarse a variaciones en la demanda.</li>
+                <li>Alta disponibilidad y distribución eficiente del tráfico.</li>
+                <li>Integración sencilla con otros servicios de AWS.</li>
+                <li>Seguridad mejorada mediante integración con AWS Certificate Manager (ACM) y capacidades de cifrado.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Tipos de Load Balancers</h2>
+            <p>ELB ofrece tres tipos principales de balanceadores que se adaptan a diferentes casos de uso:</p>
+            <ol>
+                <li><strong>Application Load Balancer (ALB):</strong> Diseñado para aplicaciones HTTP/HTTPS de capa 7. Permite balanceo basado en contenido y host.</li>
+                <li><strong>Network Load Balancer (NLB):</strong> Ideal para alto rendimiento y baja latencia en protocolos de capa 4 como TCP, UDP y TLS.</li>
+                <li><strong>Gateway Load Balancer (GLB):</strong> Facilita la implementación y escalado de appliances virtuales de terceros.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Casos de Uso</h2>
+            <p>ELB es utilizado por empresas de todos los tamaños para distribuir tráfico en aplicaciones web, microservicios y arquitecturas orientadas a contenedores, permitiendo mantener la disponibilidad y el rendimiento en todo momento.</p>
+        </section>
+        <section>
+            <h2>Conclusión</h2>
+            <p>Con AWS ELB, puedes construir aplicaciones altamente disponibles y escalables sin la complejidad de administrar manualmente la distribución de carga. ELB se encarga de manejar el balanceo de tráfico para que puedas concentrarte en el desarrollo de tus soluciones.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ejemplo AWS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
